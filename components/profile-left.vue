@@ -1,5 +1,6 @@
 <template>
 <div class="left">
+  <span class="version caption text--disabled"> {{ mode == "TH" ? 'เวอร์ชั่น': 'version'}} : {{ version }}</span>
   <div class="text-center pa-5">
     <v-avatar size="200">
       <v-img class="ma-auto" :src="require('~/assets/profile.jpg')"></v-img>
@@ -67,7 +68,8 @@ export default {
   data() {
     return {
       toggle: true,
-      toggleSkill: true
+      toggleSkill: true,
+      version: process.env.VERSION
     }
   },
 }
@@ -76,4 +78,5 @@ export default {
 <style lang="scss" scoped>
 .left { position: relative; z-index: 1000; }
 .active{ transform: rotate(-90deg); }
+.version {position: absolute; top: 6px; left: 10px;}
 </style>

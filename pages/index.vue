@@ -4,7 +4,7 @@
       <v-row no-gutters>
         <v-col v-if="data" cols="12" sm="4" md="4">
           <div class="col-left">
-            <profile-left :user="data" />
+            <profile-left :user="data" :mode="lang"/>
           </div>
         </v-col>
         <v-col v-if="data" cols="12" sm="8" md="8">
