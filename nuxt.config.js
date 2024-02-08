@@ -38,7 +38,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/moment',
-    '@nuxtjs/vuetify',
+    '@nuxtjs/vuetify'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -48,7 +48,7 @@ export default {
     '@nuxtjs/auth',
     '@nuxtjs/dotenv',
     'vue-sweetalert2/nuxt',
-    '@nuxtjs/pwa',
+    ['@nuxtjs/pwa', { icon: true }]
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -91,13 +91,13 @@ export default {
 
   pwa: {
     meta: {
-      title: 'MyResume',
+      title: 'resume',
       author: 'Me'
     },
     manifest: {
-      name: 'MyResume',
+      name: 'resume',
       lang: 'th',
-      short_name: "MyResume",
+      short_name: "resume",
       description: "my resume nuxt js"
     },
     icon: {

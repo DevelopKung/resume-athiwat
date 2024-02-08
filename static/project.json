@@ -1,0 +1,381 @@
+{
+  "project": [
+    {
+      "title": "O2-Media",
+      "description": "โปรเจคที่ใช้เก็บข้อมูล รูปภาพ(image) วิดีโอ(video) หรือ ตัวอย่างห้อง(mockup room) หรือ ข่าวสารต่าง มีการสร้าง API เพื่อที่จะคอนโทรนและนำไปใช้ งานที่ระบบอื่น",
+      "frontend": {
+        "lang": [ "HTML", "JS", "CSS", "SCSS", "NUXT JS", "VUETIFY" ],
+        "description": "",
+        "library": [
+          "@fortawesome/fontawesome-free",
+          "@nuxtjs/vuetify",
+          "@nuxtjs/auth",
+          "@nuxtjs/axios",
+          "@nuxtjs/dotenv",
+          "@nuxtjs/moment",
+          "blueimp-load-image",
+          "core-js",
+          "dotenv",
+          "lodash",
+          "nuxt",
+          "nuxt-video-player",
+          "videojs-resolution-switcher",
+          "vue",
+          "vue-numeral-filter",
+          "vue-pannellum",
+          "vue-qrcode-component",
+          "vue-server-renderer",
+          "vue-sweetalert2",
+          "vue-template-compiler",
+          "vue2-editor",
+          "vuedraggable",
+          "vuetify",
+          "webpack",
+          "xlsx"
+        ],
+        "other": [
+          "เริ่มตั้งแต่สร้างโปรเจค",
+          "CI/CD Gitlab"
+        ]
+      },
+      "backend": {
+        "lang": [ "NODE JS", "Mongodb" ],
+        "description": "",
+        "library": [
+          "ejs",
+          "cors",
+          "dotenv",
+          "axios",
+          "archiver",
+          "express",
+          "express-jwt",
+          "csv-writer",
+          "swagger-jsdoc",
+          "swagger-ui-express",
+          "sharp",
+          "moment",
+          "moment-timezone",
+          "mongoose",
+          "mongoose-aggregate-paginate-v2",
+          "mongoose-paginate",
+          "mongoose-paginate-v2",
+          "mongoose-sequence",
+          "multer",
+          "puppeteer",
+          "unique-filename",
+          "nodemon",
+          "fluent-ffmpeg",
+          "@ffmpeg-installer/ffmpeg",
+          "jsonwebtoken",
+          "jwks-rsa",
+          "lodash"
+        ],
+        "other": [
+          "เริ่มตั้งแต่สร้างโปรเจค",
+          "CI/CD Gitlab",
+          "Dockerfile",
+          "มีการทำ swagger",
+          "ปรับขนาดรูปตามไซน์ที่กำหนดรูปเพื่อนำไปใช้ให้เหมาะสม",
+          "การ export เป็นไฟน์ต่างๆ jpg, zip เป็นต้น"
+        ]
+      }
+    },
+    {
+      "title": "O2-PDPA",
+      "description": "โปรเจคที่ใช้ คอนโทรนข้อมูล pdpa ในการเพิ่มนโยบายต่างๆ",
+      "frontend": {
+        "lang": [ "HTML", "JS", "CSS", "SCSS", "NUXT JS", "VUETIFY" ],
+        "description": "",
+        "library": [
+          "@fortawesome/fontawesome-free",
+          "@nuxtjs/vuetify",
+          "@nuxtjs/axios",
+          "@nuxtjs/dotenv",
+          "core-js",
+          "nuxt",
+          "vue",
+          "vue-browser-geolocation",
+          "vue-cool-lightbox",
+          "vue-numeral-filter",
+          "vue-server-renderer",
+          "vue-sweetalert2",
+          "vue-template-compiler",
+          "vue2-editor",
+          "vuetify",
+          "webpack"
+        ],
+        "other": [
+          "เริ่มตั้งแต่สร้างโปรเจค",
+          "CI/CD Gitlab"
+        ]
+      },
+      "backend": {
+        "lang": [ "NODE JS", "Sequelize", "mariadb" ],
+        "description": "",
+        "library": [
+          "axios",
+          "cors",
+          "csvtojson",
+          "dotenv",
+          "express",
+          "express-jwt",
+          "jsonwebtoken",
+          "jwks-rsa",
+          "lodash",
+          "moment",
+          "multer",
+          "mysql2",
+          "node-image-resizer",
+          "sequelize",
+          "sharp",
+          "swagger-jsdoc",
+          "swagger-ui-express",
+          "unique-filename",
+          "uuid"
+        ],
+        "other": [
+          "เริ่มตั้งแต่สร้างโปรเจค",
+          "CI/CD Gitlab",
+          "Dockerfile",
+          "มีการทำ swagger",
+          "การ export เป็นไฟน์ต่างๆ excel, zip เป็นต้น"
+        ]
+      }
+    },
+    {
+      "title": "O2-Marketplace",
+      "description": "โปรเจค การสร้าง Product เพื่อ ซิงค์ข้อมูลไป แพลตฟอร์มต่าง เช่น LAZADA SHOPEE",
+      "frontend": {
+        "lang": ["HTML", "JS", "CSS", "SCSS", "NUXT JS", "VUETIFY"],
+        "description": "",
+        "library": [
+          "@fortawesome/fontawesome-free",
+          "@nuxtjs/vuetify",
+          "@nuxtjs/auth",
+          "@nuxtjs/axios",
+          "@nuxtjs/dotenv",
+          "@nuxtjs/moment",
+          "blueimp-load-image",
+          "core-js",
+          "dotenv",
+          "lodash",
+          "nuxt",
+          "vue",
+          "vue-numeral-filter",
+          "vue-pannellum",
+          "vue-qrcode-component",
+          "vue-server-renderer",
+          "vue-sweetalert2",
+          "vue-template-compiler",
+          "vue2-editor",
+          "vuedraggable",
+          "vuetify",
+          "webpack"
+        ],
+        "other": []
+      },
+      "backend": {
+        "lang": [ "NODE JS", "Mongodb" ],
+        "description": "",
+        "library": [
+          "axios",
+          "cors",
+          "crypto-js",
+          "csvtojson",
+          "dotenv",
+          "express",
+          "express-jwt",
+          "form-data",
+          "global-agent",
+          "html-entities",
+          "jsonwebtoken",
+          "jwks-rsa",
+          "moment",
+          "mongoose",
+          "mongoose-paginate-v2",
+          "multer",
+          "node-cron",
+          "striptags",
+          "swagger-jsdoc",
+          "swagger-ui-express",
+          "uuid",
+          "winston"
+        ],
+        "other": []
+      }
+    },
+    {
+      "title": "Product-info",
+      "description": "",
+      "frontend": {
+        "lang": [ "HTML", "JS", "CSS", "SCSS", "NUXT JS", "VUETIFY" ],
+        "description": "",
+        "library": [
+          "@fortawesome/fontawesome-free",
+          "@nuxtjs/vuetify",
+          "@nuxtjs/auth",
+          "@nuxtjs/axios",
+          "@nuxtjs/dotenv",
+          "@nuxtjs/moment",
+          "blueimp-load-image",
+          "core-js",
+          "dotenv",
+          "lodash",
+          "nuxt",
+          "vue",
+          "vue-numeral-filter",
+          "vue-pannellum",
+          "vue-qrcode-component",
+          "vue-server-renderer",
+          "vue-sweetalert2",
+          "vue-template-compiler",
+          "vue2-editor",
+          "vuedraggable",
+          "vuetify",
+          "webpack"
+        ],
+        "other": []
+      },
+      "backend": {
+        "lang": [],
+        "description": "",
+        "library": [],
+        "other": []
+      }
+    },
+    {
+      "title": "O2-Cycle Count",
+      "description": "โปรเจค ในการย้ายสินค้า ในตำแหน่งต่าง เพื่อลดการทำงาน หรือ ขออนุมัติในการย้ายสินค้า",
+      "frontend": {
+        "lang": ["HTML", "JS", "CSS", "SCSS", "NUXT 3", "VUETIFY 3"],
+        "description": "",
+        "library": [
+          "@fortawesome/fontawesome-free",
+          "@mdi/font",
+          "@nuxt/devtools",
+          "@sidebase/nuxt-auth",
+          "@types/node",
+          "nuxt",
+          "@pinia/nuxt",
+          "axios",
+          "dotenv",
+          "moment",
+          "numeral",
+          "pinia",
+          "sass",
+          "vue-qrcode-reader",
+          "vue-sweetalert2",
+          "vue3-qrcode-reader",
+          "vuetify"
+        ],
+        "other": []
+      },
+      "backend": {
+        "lang": [],
+        "description": "",
+        "library": [],
+        "other": []
+      }
+    },
+    {
+      "title": "LINE BCRM",
+      "description": "เป็นโปรเจคที่นำ line liff มาใช้ในการยืนยันตัวตน เพื่อในการดูโปรโมชั่น ต่างๆ หรือ สั่งซื้อสินค้า",
+      "frontend": {
+        "lang": [ "HTML", "JS", "CSS", "SCSS", "NUXT JS", "VUETIFY" ],
+        "description": "",
+        "library": [
+          "@fortawesome/fontawesome-free",
+          "@nuxtjs/vuetify",
+          "@nuxtjs/auth",
+          "@nuxtjs/axios",
+          "@nuxtjs/dotenv",
+          "@nuxtjs/moment",
+          "date-fns",
+          "nuxt",
+          "vue-barcode",
+          "vue-browser-geolocation",
+          "vue-cool-lightbox",
+          "vue-numeral-filter",
+          "vue-pincode-input",
+          "vue-qrcode-component",
+          "vue-the-mask",
+          "vuetify",
+          "webpack"
+        ],
+        "other": []
+      },
+      "backend": {
+        "lang": [],
+        "description": "",
+        "library": [],
+        "other": []
+      }
+    },
+    {
+      "title": "LINE Bwallet",
+      "description": "เป็นโปรเจคที่นำ line liff มาใช้ในการยืนยันตัวตน เพื่อดูแต้มต่าง เป็นสิทธประโยชน์แก่พนักงานขาย",
+      "frontend": {
+        "lang": [ "HTML", "JS", "CSS", "SCSS", "NUXT JS", "VUETIFY" ],
+        "description": "",
+        "library": [
+          "@fortawesome/fontawesome-free",
+          "@nuxtjs/vuetify",
+          "@nuxtjs/auth",
+          "@nuxtjs/axios",
+          "@nuxtjs/dotenv",
+          "@nuxtjs/moment",
+          "date-fns",
+          "nuxt",
+          "vue-barcode",
+          "vue-browser-geolocation",
+          "vue-cool-lightbox",
+          "vue-numeral-filter",
+          "vue-pincode-input",
+          "vue-qrcode-component",
+          "vue-the-mask",
+          "vuetify",
+          "webpack"
+        ],
+        "other": []
+      },
+      "backend": {
+        "lang": [],
+        "description": "",
+        "library": [],
+        "other": []
+      }
+    },
+    {
+      "title": "Sale Order (B6G)",
+      "description": "เป็นระบบขายของบริษัท เพื่อช่วยใช้การขายต่าง",
+      "frontend": {
+        "lang": [ "HTML", "JS", "CSS", "SCSS", "NUXT JS", "Boostrap" ],
+        "description": "",
+        "library": [],
+        "other": []
+      },
+      "backend": {
+        "lang": [],
+        "description": "",
+        "library": [],
+        "other": []
+      }
+    },
+    {
+      "title": "Kasco (TMS)",
+      "description": "เป็นระบบ คลังสินค้า ของบริษัท ในการจัดการคลังพัสดุ การขนส่ง",
+      "frontend": {
+        "lang": [ "HTML", "JS", "CSS", "SCSS", "Angular.js", "Boostrap" ],
+        "description": "",
+        "library": [],
+        "other": []
+      },
+      "backend": {
+        "lang": [],
+        "description": "",
+        "library": [],
+        "other": []
+      }
+    }
+  ]
+}
